@@ -5,3 +5,7 @@ trying to create really functional custom keyboard layout for mongolian language
 `$ chmod +x install-custom-mgl-kb.sh`
 
 `$ ./install-custom-mgl-kb.sh`
+
+> Mongolian custom keyboard layout
+
+![Tux, the Linux mascot](/assets/images/tux.png)
