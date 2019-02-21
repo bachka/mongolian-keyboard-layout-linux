@@ -8,32 +8,32 @@ xkb_symbols "basic" {
 
   name[Group1]= "Mongolian";
 
-  key <TLDE> { [ Cyrillic_io,   Cyrillic_IO,  		grave,                  asciitilde       ] };
-  key <AE01> { [ 1,             exclam,          	exclamdown,             onesuperior      ] };
-  key <AE02> { [ 2,             at,              	twosuperior,            dead_doubleacute ] };
-  key <AE03> { [ 3,             numbersign,         threesuperior,          dead_macron      ] };
-  key <AE04> { [ 4,             dollar,             currency,               sterling         ] };
-  key <AE05> { [ 5,             percent,            EuroSign,               dead_cedilla     ] };
-  key <AE06> { [ 6,             dead_circumflex,    onequarter,             asciicircum      ] };
-  key <AE07> { [ 7,             ampersand,          onehalf,	            dead_horn    	 ] };
-  key <AE08> { [ 8,             asterisk,           threequarters,          dead_ogonek      ] };
-  key <AE09> { [ 9,             parenleft,          leftsinglequotemark,    dead_breve       ] };
-  key <AE10> { [ 0,             parenright,         rightsinglequotemark,   dead_abovering   ] };
-  key <AE11> { [ minus,         underscore,         yen,                    dead_belowdot    ] };
-  key <AE12> { [ equal,         plus,               multiply,               division      	 ] };
+  key <TLDE> { [ Cyrillic_io,   Cyrillic_IO,  		asciitilde              ] };
+  key <AE01> { [ 1,             exclam,          	numerosign              ] };
+  key <AE02> { [ 2,             at,              	twosuperior             ] };
+  key <AE03> { [ 3,             numbersign,         threesuperior           ] };
+  key <AE04> { [ 4,             dollar,             currency                ] };
+  key <AE05> { [ 5,             percent,            EuroSign                ] };
+  key <AE06> { [ 6,             dead_circumflex,    onequarter              ] };
+  key <AE07> { [ 7,             ampersand,          onehalf                 ] };
+  key <AE08> { [ 8,             asterisk,           threequarters           ] };
+  key <AE09> { [ 9,             parenleft,          leftsinglequotemark     ] };
+  key <AE10> { [ 0,             parenright,         rightsinglequotemark    ] };
+  key <AE11> { [ minus,         underscore,         yen                     ] };
+  key <AE12> { [ equal,         plus,               multiply                ] };
 
-  key <AD01> { [ Cyrillic_hardsign,  Cyrillic_HARDSIGN,   adiaeresis,       Adiaeresis       ] };
-  key <AD02> { [ Cyrillic_softsign,  Cyrillic_SOFTSIGN,   aring,            Aring            ] };
-  key <AD03> { [ Cyrillic_e,         Cyrillic_E,          eacute,           Eacute           ] };
-  key <AD04> { [ Cyrillic_er,        Cyrillic_ER,      	  registered,       registered       ] };
-  key <AD05> { [ Cyrillic_te,        Cyrillic_TE,         U20ae,	        trademark        ] }; // Tugrik sign
-  key <AD06> { [ Cyrillic_ie,        Cyrillic_IE,         udiaeresis,       Udiaeresis       ] };
-  key <AD07> { [ Cyrillic_u,         Cyrillic_U,      	  doublelowquotemark                 ] };
-  key <AD08> { [ Cyrillic_i,         Cyrillic_I,      	  leftdoublequotemark                ] };
-  key <AD09> { [ Cyrillic_o,         Cyrillic_O,          rightdoublequotemark               ] };
-  key <AD10> { [ Cyrillic_pe,        Cyrillic_PE,         semicolon                          ] };
-  key <AD11> { [ Cyrillic_o_bar,     Cyrillic_O_bar,      bracketleft                        ] };
-  key <AD12> { [ Cyrillic_u_straight,Cyrillic_U_straight, bracketright                       ] };
+  key <AD01> { [ Cyrillic_hardsign,  Cyrillic_HARDSIGN,   adiaeresis          ] };
+  key <AD02> { [ Cyrillic_softsign,  Cyrillic_SOFTSIGN,   aring               ] };
+  key <AD03> { [ Cyrillic_e,         Cyrillic_E,          eacute              ] };
+  key <AD04> { [ Cyrillic_er,        Cyrillic_ER,      	  registered          ] };
+  key <AD05> { [ Cyrillic_te,        Cyrillic_TE,         U20ae               ] }; // Tugrik sign
+  key <AD06> { [ Cyrillic_ie,        Cyrillic_IE,         udiaeresis          ] };
+  key <AD07> { [ Cyrillic_u,         Cyrillic_U,      	  doublelowquotemark  ] };
+  key <AD08> { [ Cyrillic_i,         Cyrillic_I,      	  leftdoublequotemark ] };
+  key <AD09> { [ Cyrillic_o,         Cyrillic_O,          rightdoublequotemark] };
+  key <AD10> { [ Cyrillic_pe,        Cyrillic_PE,         semicolon           ] };
+  key <AD11> { [ Cyrillic_o_bar,     Cyrillic_O_bar,      bracketleft         ] };
+  key <AD12> { [ Cyrillic_u_straight,Cyrillic_U_straight, bracketright        ] };
 
   key <AC01> { [ Cyrillic_a,        Cyrillic_A,        	mu                      ] };
   key <AC02> { [ Cyrillic_es,       Cyrillic_ES,     	sterling                ] };
@@ -46,10 +46,9 @@ xkb_symbols "basic" {
   key <AC09> { [ Cyrillic_el,       Cyrillic_EL,       	numerosign              ] };
   key <AC10> { [ Cyrillic_shcha,    Cyrillic_SHCHA,     colon                   ] };
   key <AC11> { [ Cyrillic_yeru,     Cyrillic_YERU,      ellipsis                ] };
-  key <BKSL> { [ backslash,         bar,                notsign,        brokenbar    ] };
+  key <BKSL> { [ backslash,         bar,                brokenbar               ] };
 
   key <LSGT> { [ parenleft,         parenright,         NoSymbol        ] };
-
   key <AB01> { [ Cyrillic_ze,       Cyrillic_ZE,       	emdash          ] };
   key <AB02> { [ Cyrillic_sha,      Cyrillic_SHA,      	endash          ] };
   key <AB03> { [ Cyrillic_tse,      Cyrillic_TSE,       copyright       ] };
@@ -57,9 +56,9 @@ xkb_symbols "basic" {
   key <AB05> { [ Cyrillic_be,       Cyrillic_BE,       	NoSymbol        ] };
   key <AB06> { [ Cyrillic_en,       Cyrillic_EN,        less            ] };
   key <AB07> { [ Cyrillic_em,       Cyrillic_EM,       	greater         ] };
-  key <AB08> { [ Cyrillic_che,      Cyrillic_CHE, 	    comma,   ] };
-  key <AB09> { [ Cyrillic_yu,       Cyrillic_YU,       	period  ] };
-  key <AB10> { [ Cyrillic_ya,       Cyrillic_YA,       	slash       ] };
+  key <AB08> { [ Cyrillic_che,      Cyrillic_CHE, 	    comma           ] };
+  key <AB09> { [ Cyrillic_yu,       Cyrillic_YU,       	period          ] };
+  key <AB10> { [ Cyrillic_ya,       Cyrillic_YA,       	slash           ] };
 
   key <SPCE> { [ space,             space,             	nobreakspace    ] };
 
