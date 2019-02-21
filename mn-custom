@@ -22,12 +22,12 @@ xkb_symbols "basic" {
   key <AE11> { [ minus,         underscore,         yen                     ] };
   key <AE12> { [ equal,         plus,               multiply                ] };
 
-  key <AD01> { [ Cyrillic_hardsign,  Cyrillic_HARDSIGN,   adiaeresis          ] };
-  key <AD02> { [ Cyrillic_softsign,  Cyrillic_SOFTSIGN,   aring               ] };
-  key <AD03> { [ Cyrillic_e,         Cyrillic_E,          eacute              ] };
+  key <AD01> { [ Cyrillic_hardsign,  Cyrillic_HARDSIGN,   apostrophe          ] };
+  key <AD02> { [ Cyrillic_softsign,  Cyrillic_SOFTSIGN,   grave               ] };
+  key <AD03> { [ Cyrillic_e,         Cyrillic_E,          EuroSign            ] };
   key <AD04> { [ Cyrillic_er,        Cyrillic_ER,      	  registered          ] };
   key <AD05> { [ Cyrillic_te,        Cyrillic_TE,         U20ae               ] }; // Tugrik sign
-  key <AD06> { [ Cyrillic_ie,        Cyrillic_IE,         udiaeresis          ] };
+  key <AD06> { [ Cyrillic_ie,        Cyrillic_IE,         trademark           ] };
   key <AD07> { [ Cyrillic_u,         Cyrillic_U,      	  doublelowquotemark  ] };
   key <AD08> { [ Cyrillic_i,         Cyrillic_I,      	  leftdoublequotemark ] };
   key <AD09> { [ Cyrillic_o,         Cyrillic_O,          rightdoublequotemark] };
@@ -46,9 +46,9 @@ xkb_symbols "basic" {
   key <AC09> { [ Cyrillic_el,       Cyrillic_EL,       	numerosign              ] };
   key <AC10> { [ Cyrillic_shcha,    Cyrillic_SHCHA,     colon                   ] };
   key <AC11> { [ Cyrillic_yeru,     Cyrillic_YERU,      ellipsis                ] };
-  key <BKSL> { [ backslash,         bar,                brokenbar               ] };
+  key <BKSL> { [ Cyrillic_shorti,   Cyrillic_SHORTI,    backslash               ] };
 
-  key <LSGT> { [ parenleft,         parenright,         NoSymbol        ] };
+  key <LSGT> { [ slash,             bar,                NoSymbol        ] };
   key <AB01> { [ Cyrillic_ze,       Cyrillic_ZE,       	emdash          ] };
   key <AB02> { [ Cyrillic_sha,      Cyrillic_SHA,      	endash          ] };
   key <AB03> { [ Cyrillic_tse,      Cyrillic_TSE,       copyright       ] };
@@ -58,7 +58,7 @@ xkb_symbols "basic" {
   key <AB07> { [ Cyrillic_em,       Cyrillic_EM,       	greater         ] };
   key <AB08> { [ Cyrillic_che,      Cyrillic_CHE, 	    comma           ] };
   key <AB09> { [ Cyrillic_yu,       Cyrillic_YU,       	period          ] };
-  key <AB10> { [ Cyrillic_ya,       Cyrillic_YA,       	slash           ] };
+  key <AB10> { [ Cyrillic_ya,       Cyrillic_YA,       	question        ] };
 
   key <SPCE> { [ space,             space,             	nobreakspace    ] };
 
