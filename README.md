@@ -8,4 +8,4 @@ trying to create really functional custom keyboard layout for mongolian language
 
 > Mongolian custom keyboard layout
 
-![Tux, the Linux mascot](assets/images/tux.jpg)
+![Tux, the Linux mascot](assets/images/tux.png)
